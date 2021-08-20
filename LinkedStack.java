@@ -84,6 +84,8 @@ public class LinkedStack {
 			stack1.push(stack2.pop());
 		}
 		System.out.println("\n" + "Removed the botton half successfully.");
-
+		
+		// Update count.
+		count = middle;
 	}
 }
